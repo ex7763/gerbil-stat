@@ -71,7 +71,7 @@
                (cached ,Cached)
                (used ,used)
                (usage ,(exact->inexact
-                        (/ used MemTotal))))
+                        (* 100.0 (/ used MemTotal)))))
            )
           )
   )
